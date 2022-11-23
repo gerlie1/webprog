@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+        font-family: "LOVES";
+        src: url(font/LOVES.ttf);
+       
+    }
+@font-face {
+    font-family: "BloodLust";
+    src: url(font/BloodLust.ttf);
+}
+
+
+body{
+    background-image: linear-gradient( to bottom right, rgba(0, 0, 0, 0.377) 40%,rgba(0, 0, 0, 0.377) 40%) ,
+    url('img/Untitled.jpg');
+    background-size: contain;
+    
+}
+.bg{
+    place-content: center;
+}
+.container
+{
+  display: flex;
+  min-height: 70px;
+  margin-top: 1rem;
+  place-content: center;
+  display: flex;
+}
+
+.home, .about, .contact, .blog, .stories{ 
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight:bold;
+    border-color: transparent;
+    padding: 1rem;
+    height: 4rem;
+    margin-left: 9rem;
+    font-family: "LOVES";
+}
+
+.about, .contact, .blog, .stories{   
+    margin-left: 1rem;
+}
+
+.home:hover, .about:hover, .contact:hover, .blog:hover, .stories:hover{   
+    box-shadow: 0px 0px 9px 3px brown;
+    background-color: rgba(165, 42, 42, 0.295);
+    border-radius: 15px;
+    
+}
+.home{
+    margin-left: -15rem;
+}
+
+.line1{
+    width: 90%;
+    height: .1px;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    margin-top: -1rem;
+    border-color: rgb(173, 53, 53);
+    opacity: 50%;
+}
+
+.card{
+    background-image:
+  linear-gradient(to top right , rgba(175, 175, 175, 0.801)  , rgba(175, 175, 175, 0.801));
+    height: auto;
+  background-size:contain;
+  background-repeat: no-repeat;
+    margin-top: 1rem;
+  border-radius: 0.7rem;
+  padding: 3rem;
+  width: 80%;
+  margin-bottom: 5rem;
+}
+
+h1:nth-child(3n){
+    margin-top: 1rem;
+}
+
+h1{
+    background: -webkit-linear-gradient(rgb(252, 0, 0) , rgba(7, 7, 7, 0.719)1.5rem);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "BloodLust";
+    font-size: 62px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.moon{
+    width: 6rem;
+    height: 4rem;
+    display: flex;
+    margin-left: -17rem;
+}
+
+.logo{
+   margin-left: -7rem;
+    margin-top: -1rem;
+    background: -webkit-linear-gradient( rgba(7, 7, 7, 0.719),rgb(252, 0, 0)5rem);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "BloodLust";
+}
+
+.diplomant{
+    width: 20rem;
+    margin-top: -6rem;
+    border-radius: 2rem;
+}
+
+h2{
+    color: white;
+    margin-left: 21rem;
+    margin-top: 1rem;
+    font-family: "LOVES";
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+
+
+.square{
+    height: 43rem;
+    width: 5px;
+    margin: auto;
+     margin-top: -25rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884) ,rgb(161, 139, 114), black);
+    border-color: transparent;
+    z-index: 2;  
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(241, 3, 3);
+    border-color: rgb(78, 78, 78) ;
+    border-width: 5px;
+    margin: auto;
+    margin-top: -1rem;
+    z-index: 1;
+}
+.arrow{
+    width: 38%;
+    margin-left: 8rem;
+    margin-top: -43rem;
+    border-color: black;
+    background-color: black;  
+}
+
+.container1
+{
+  
+  min-height: 70px;
+  margin-top: 1rem;
+  place-content: center;
+}
+
+.dip{
+    text-indent: 2rem;
+    width: 30rem;
+    padding: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.clark{
+    width: 20rem;
+    border-radius: 2rem;
+    margin-left: 72%;
+    display: flex;
+    margin-top: -7rem;
+}
+
+.circle1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(201, 0, 0);
+    border-color: rgb(78, 78, 78) ;
+    border-width: 5px;
+    margin: auto;
+    margin-top: -1rem;
+    z-index: 2; 
+}
+
+h2:nth-child(2n){
+    margin-top: -5rem;
+    margin-left: 37rem;
+    font-size: 24px;
+}
+
+h2:nth-child(3n){
+    margin-top: -1rem;
+    margin-left: 43rem;
+}
+
+.arrow1{
+    width: 38%;
+    margin-left: 35rem;
+    margin-top: 10rem;
+    border-color: black;
+    background-color: black;
+}
+
+.cla{
+    text-indent: 2rem;
+    width: 30rem;
+    padding: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-left: 38rem;
+}
+.circle2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(241, 3, 3);
+    border-color: rgb(78, 78, 78) ;
+    border-width: 5px;
+    margin: auto;
+    margin-top: -1rem;
+    z-index: 1;
+    
+    
+}
+.arrow2{
+    width: 38%;
+    margin-left: 8rem;
+    border-color: black;
+    background-color: black;
+     
+}
+
+.laperal{
+    width: 20rem;
+    margin-top: -6rem;
+    border-radius: 2rem;
+    width: 21rem;
+}
+
+.lwh{
+    color: white;
+    margin-left: 22rem;
+    margin-top: -5rem;
+    font-family: "LOVES";
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.lwh2{
+    color: white;
+    margin-left: 23rem;
+    margin-top: -1rem;
+    font-family: "LOVES";
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.lap{  
+    text-indent: 2rem;
+    width: 30rem;
+    padding: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.circle3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(241, 3, 3);
+    border-color: rgb(78, 78, 78) ;
+    border-width: 5px;
+    margin: auto;
+    margin-top: -1rem;
+    z-index: 1; 
+}
+
+.arrow3{
+    width: 38%;
+    margin-left: 35rem;
+    margin-top: -1rem;
+    border-color: black;
+    background-color: black;
+    display: flex;
+}
+
+.intra{
+    width: 20rem;
+    border-radius: 2rem;
+    margin-left: 72%;
+    display: flex;
+    margin-top: -7rem;
+}
+
+.int{  
+    text-indent: 2rem;
+    width: 30rem;
+    padding: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-left: 38rem;
+}
+
+h3{
+    text-indent: 2rem;
+    width: 30rem;
+    padding: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-left: 35rem;
+    margin-top: -15rem;
+    font-family: "LOVES";
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
